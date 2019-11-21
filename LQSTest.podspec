@@ -21,22 +21,23 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/tanyb001/LQSTest'
+  s.homepage         = 'https://github.com/GateLi/LQSTest'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'tanyb001' => 'tanyb001@cmft.com' }
-  s.source           = { :git => 'https://github.com/tanyb001/LQSTest.git', :tag => s.version.to_s }
+  s.author           = { 'GateLi' => 'lipr0813@163.com' }
+  s.source           = { :git => 'https://github.com/GateLi/LQSTest.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'LQSTest/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'LQSTest' => ['LQSTest/Assets/*.png']
-  # }
+  s.resource_bundles = {
+      'LQSTest' => ['LQSTest/Assets/*.png']
+  }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/*.h'
+  s.frameworks = 'UIKit', 'MapKit'
+  s.dependency 'AFNetworking', '~> 2.3'
 end

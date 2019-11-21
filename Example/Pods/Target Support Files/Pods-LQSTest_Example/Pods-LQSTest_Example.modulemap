@@ -1,0 +1,6 @@
+framework module Pods_LQSTest_Example {
+  umbrella header "Pods-LQSTest_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

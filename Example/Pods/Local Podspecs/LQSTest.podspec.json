@@ -1,0 +1,37 @@
+{
+  "name": "LQSTest",
+  "version": "0.1.0",
+  "summary": "A short description of LQSTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/GateLi/LQSTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "GateLi": "lipr0813@163.com"
+  },
+  "source": {
+    "git": "https://github.com/GateLi/LQSTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LQSTest/Classes/**/*",
+  "resource_bundles": {
+    "LQSTest": [
+      "LQSTest/Assets/*.png"
+    ]
+  },
+  "public_header_files": "Pod/Classes/*.h",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ]
+  }
+}

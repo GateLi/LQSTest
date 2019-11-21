@@ -7,6 +7,7 @@
 //
 
 #import "TViewController.h"
+#import <LQSViewController.h>
 
 @interface TViewController ()
 

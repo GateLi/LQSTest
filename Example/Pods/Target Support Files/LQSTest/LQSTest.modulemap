@@ -1,0 +1,6 @@
+framework module LQSTest {
+  umbrella header "LQSTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
